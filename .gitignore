@@ -1,0 +1,19 @@
+.ipynb_checkpoints/
+
+__pycache__/
+*.pyc
+
+# Dataset (Chặn up file quá nặng, chỉ giữ lại cấu trúc folder)
+# Bạn có thể bỏ comment dòng dưới nếu muốn chặn toàn bộ file trong data
+data/*
+# !data/.gitkeep
+
+# Mac OS files
+.DS_Store
+
+# Virtual Environment
+venv/
+env/
+.env
+data/temporal/btcusd_1-min_data.csv
+data/images/cifar-10-python.tar.gz
