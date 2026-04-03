@@ -114,14 +114,3 @@ Ví dụ:
 pip install numpy pandas matplotlib seaborn scikit-learn opencv-python statsmodels jupyter
 jupyter notebook
 ```
-
-## Ghi chú dữ liệu
-
-- Repo đang cấu hình `.gitignore` để hạn chế commit dữ liệu lớn trong `data/`.
-- Nếu thiếu dữ liệu ảnh, hãy tải CIFAR-10 về và đặt file nén tại:
-  - `data/images/cifar-10-python.tar.gz`
-- Các notebook sử dụng đường dẫn tương đối từ thư mục `notebooks/`, vì vậy nên giữ nguyên cấu trúc thư mục khi chạy.
-
-## Tác giả
-
-Thực hành Lab01 - Data Mining (Data Preprocessing).
